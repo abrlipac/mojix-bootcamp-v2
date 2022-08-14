@@ -7,6 +7,20 @@ st.markdown('''
 
 > Artículo original: [10 Cool Beginner Python Tricks That Will Make Your Life Easier](https://levelup.gitconnected.com/10-cool-beginner-python-tricks-that-will-make-your-life-easier-6c68c909edf6)''')
 
+st.header("Indice")
+
+st.markdown('''
+1. [Operador Walrus](#1-operador-walrus)
+2. [Dividir una cadena](#2-dividir-una-cadena)
+3. [Revertir una cadena](#3-revertir-una-cadena)
+4. [Fusionando dos diccionarios](#4-fusionando-dos-diccionarios)
+5. [The zip() function](#5-the-zip-function)
+6. [Asignación de múltiples valores de lista a una variable](#6-asignación-de-múltiples-valores-de-lista-a-una-variable)
+7. [Eliminar elementos de la lista duplicada](#7-eliminar-elementos-de-la-lista-duplicada)
+8. [Función lambda](#8-función-lambda)
+9. [Intercambio de valor de variable](#9-intercambio-de-valor-de-variable)
+10. [Use una contraseña en su código](#10-use-una-contraseña-en-su-código)''')
+
 st.header("1. Operador Walrus")
 
 st.markdown("El operador `Walrus` o `:=` es una de las últimas incorporaciones a Python 3.8. Es un operador de asignación que le permite asignar valor a una variable dentro de una expresión como declaraciones condicionales, bucles, etc.")
@@ -23,6 +37,8 @@ if(l := len(mylist) > 2)
 st.subheader("Salida")
 
 st.code('3')
+
+st.markdown("[Subir](#indice)")
 
 st.header("2. Dividir una cadena")
 
