@@ -2,8 +2,9 @@ import streamlit as st
 
 st.markdown('''
   <style>
-  [href="#10-trucos-geniales-de-python-para-principiantes-que-te-facilitar-n-la-vida"] {
+  [href="#10-trucos-geniales-de-python-para-principiantes-que-te-facilitar-n-la-vida"]:not(:first-child) !important {
     display: inline-block;
+    text-decoration: none;
     outline: none;
     cursor: pointer;
     font-size: 16px;
@@ -72,6 +73,8 @@ st.subheader("Salida")
 
 st.code("['hello', 'world']")
 
+st.markdown("[Regresar arriba ☝️](#10-trucos-geniales-de-python-para-principiantes-que-te-facilitar-n-la-vida)")
+
 st.header("3. Revertir una cadena")
 
 st.markdown("Si desea revertir una cadena dada, puede hacerlo con solo una línea de código utilizando la indexación negativa de la cadena.")
@@ -86,6 +89,8 @@ print(a)''')
 st.subheader("Salida")
 
 st.code("!dlrow olleh")
+
+st.markdown("[Regresar arriba ☝️](#10-trucos-geniales-de-python-para-principiantes-que-te-facilitar-n-la-vida)")
 
 st.header("4. Fusionando dos diccionarios")
 
@@ -102,6 +107,8 @@ print(d3)''')
 st.subheader("Salida")
 
 st.code("{'a': 10, 'b': 20, 'c': 30, 'd': 40}")
+
+st.markdown("[Regresar arriba ☝️](#10-trucos-geniales-de-python-para-principiantes-que-te-facilitar-n-la-vida)")
 
 st.header("5. La función zip()")
 
@@ -136,6 +143,8 @@ st.subheader("Salida 2")
 
 st.code("{'Rajesh': 87, 'kumar': 90, 'Kriti': 88}")
 
+st.markdown("[Regresar arriba ☝️](#10-trucos-geniales-de-python-para-principiantes-que-te-facilitar-n-la-vida)")
+
 st.header("6. Asignación de múltiples valores de lista a una variable")
 
 st.markdown("Si desea asignar algunos valores específicos de una lista a una variable y todos los valores restantes a otra variable en un formato de lista, puede usar la siguiente técnica:")
@@ -156,6 +165,8 @@ b = [2, 3, 4, 5]''')
 
 st.markdown("Este proceso también se llama desempaquetado de la lista y puede aplicar este método para más de 2 variables también.")
 
+st.markdown("[Regresar arriba ☝️](#10-trucos-geniales-de-python-para-principiantes-que-te-facilitar-n-la-vida)")
+
 st.header("7. Eliminar elementos de la lista duplicada")
 
 st.markdown("¿Tiene elementos duplicados en su lista que desea eliminar? Puede hacerlo con solo una línea de código utilizando la función `set()`.")
@@ -170,6 +181,8 @@ print(newlist)''')
 st.subheader("Salida")
 
 st.code("{1, 2, 3, 4, 5, 6, 7, 8, 9}")
+
+st.markdown("[Regresar arriba ☝️](#10-trucos-geniales-de-python-para-principiantes-que-te-facilitar-n-la-vida)")
 
 st.header("8. Función lambda")
 
@@ -186,6 +199,8 @@ mul(5,6)''')
 st.subheader("Salida")
 
 st.code("30")
+
+st.markdown("[Regresar arriba ☝️](#10-trucos-geniales-de-python-para-principiantes-que-te-facilitar-n-la-vida)")
 
 st.header("9. Intercambio de valor de variable")
 
@@ -205,6 +220,8 @@ st.subheader("Salida")
 st.code('''
 a = 200
 b = 100''')
+
+st.markdown("[Regresar arriba ☝️](#10-trucos-geniales-de-python-para-principiantes-que-te-facilitar-n-la-vida)")
 
 st.header("10. Use una contraseña en su código")
 
