@@ -2,7 +2,7 @@ import streamlit as st
 
 st.markdown('''
   <style>
-  [href="#10-trucos-geniales-de-python-para-principiantes-que-te-facilitar-n-la-vida"]:not(:first-child) !important {
+  [href="#10-trucos-geniales-de-python-para-principiantes-que-te-facilitar-n-la-vida"] :not(:first-child) {
     display: inline-block;
     text-decoration: none;
     outline: none;
