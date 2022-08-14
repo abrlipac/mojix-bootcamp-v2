@@ -3,7 +3,7 @@ import streamlit as st
 st.title("10 trucos geniales de Python para principiantes que te facilitarán la vida")
 
 st.markdown('''
-> Traducido por [@abrlipac](https://github.com/abrlipac)
+> Traducido por Abraham Lipa Calabilla ([@abrlipac](https://github.com/abrlipac)) para el **Mojix Bootcamp v2**
 
 > Artículo original: [10 Cool Beginner Python Tricks That Will Make Your Life Easier](https://levelup.gitconnected.com/10-cool-beginner-python-tricks-that-will-make-your-life-easier-6c68c909edf6)''')
 
@@ -195,3 +195,6 @@ password: **** [abcd]
 Welcome stranger!
 Password: **** [abdc]
 Wrong password''')
+
+st.markdown('''
+> No olvides ver el artículo original: [10 Cool Beginner Python Tricks That Will Make Your Life Easier](https://levelup.gitconnected.com/10-cool-beginner-python-tricks-that-will-make-your-life-easier-6c68c909edf6)''')
