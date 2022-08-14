@@ -1,25 +1,24 @@
 import streamlit as st
 
-st.markdown('# 10 Cool Beginner Python Tricks')
-st.markdown('from **Mojix Bootcamp** v2')
+st.title("10 trucos geniales de Python para principiantes que te facilitarán la vida")
 
-st.markdown('## 1. Walrus operator')
+st.markdown('''
+> Traducido por [@abrlipac](https://github.com/abrlipac)
+> Artículo original: [10 Cool Beginner Python Tricks That Will Make Your Life Easier](https://levelup.gitconnected.com/10-cool-beginner-python-tricks-that-will-make-your-life-easier-6c68c909edf6)''')
 
-number1 = st.number_input('Enter a number')
+st.header("1. Walrus operator")
 
-list1 = range[1, number1]
-l1 := len(list1)
+st.markdown("El operador `Walrus` o `:=` es una de las últimas incorporaciones a Python 3.8. Es un operador de asignación que le permite asignar valor a una variable dentro de una expresión como declaraciones condicionales, bucles, etc.")
 
-st.markdown('### Code example')
+st.subheader("Ejemplo")
 
-st.markdown(f'''```python
-list1 = range{list1}
-print(l1 := len(list1))
-print(l1)```''')
+st.markdown("Si queremos verificar e imprimir la longitud de una lista:")
 
-st.markdown('### Output')
+st.code('''
+Mylist = [1,2,3]
+if(l := len(mylist) > 2)
+print(l)''')
 
-# no se puede imprimir una expresión con este operador
-st.markdown(f'''```
-{l1}
-{l1}```''')
+st.subheader("Salida")
+
+st.code('3')
