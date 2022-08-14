@@ -6,8 +6,11 @@ with open("style.css") as f:
 
 
 def show_button():
-    st.markdown('<a href="#10-trucos-geniales-de-python-para-principiantes-que-te-facilitar-n-la-vida" class="go-top">Regresar arriba ☝️</a>', unsafe_allow_html=True)
+    st.markdown('<a href="#top" class="top" style="text-decoration:none;color:#fff;">Regresar arriba ☝️</a>',
+                unsafe_allow_html=True)
 
+
+st.markdown('<div class="top"></div>', unsafe_allow_html=True)
 
 st.title("10 trucos geniales de Python para principiantes que te facilitarán la vida")
 
