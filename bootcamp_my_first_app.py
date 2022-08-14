@@ -1,20 +1,21 @@
 import streamlit as st
 
-st.markdown('''<style>
-#10-trucos-geniales-de-python-para-principiantes-que-te-facilitar-n-la-vida {
-  display: inline-block;
-  outline: none;
-  cursor: pointer;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 600;
-  border-radius: 8px;
-  padding: 14px 24px;
-  border: none;
-  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
-  background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
-  color: #fff;
-}
+st.markdown('''
+  <style>
+  [href="#10-trucos-geniales-de-python-para-principiantes-que-te-facilitar-n-la-vida"] {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 14px 24px;
+    border: none;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+    color: #fff;
+  }
 </style>''', unsafe_allow_html=True)
 
 st.title("10 trucos geniales de Python para principiantes que te facilitarán la vida")
@@ -55,7 +56,7 @@ st.subheader("Salida")
 
 st.code('3')
 
-st.markdown("[Subir 🔝](#10-trucos-geniales-de-python-para-principiantes-que-te-facilitar-n-la-vida)")
+st.markdown("[Regresar arriba ☝️](#10-trucos-geniales-de-python-para-principiantes-que-te-facilitar-n-la-vida)")
 
 st.header("2. Dividir una cadena")
 
