@@ -10,7 +10,7 @@ def show_button():
                 unsafe_allow_html=True)
 
 
-st.markdown('<div class="top"></div>', unsafe_allow_html=True)
+st.markdown('<div id="top"></div>', unsafe_allow_html=True)
 
 st.title("10 trucos geniales de Python para principiantes que te facilitarán la vida")
 
