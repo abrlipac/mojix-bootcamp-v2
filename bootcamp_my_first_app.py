@@ -1,5 +1,22 @@
 import streamlit as st
 
+st.markdown('''<style>
+#10-trucos-geniales-de-python-para-principiantes-que-te-facilitar-n-la-vida {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 14px 24px;
+  border: none;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+  color: #fff;
+}
+</style>''', unsafe_allow_html=True)
+
 st.title("10 trucos geniales de Python para principiantes que te facilitarán la vida")
 
 st.markdown('''
@@ -14,12 +31,12 @@ st.markdown('''
 2. [Dividir una cadena](#2-dividir-una-cadena)
 3. [Revertir una cadena](#3-revertir-una-cadena)
 4. [Fusionando dos diccionarios](#4-fusionando-dos-diccionarios)
-5. [The zip() function](#5-the-zip-function)
-6. [Asignación de múltiples valores de lista a una variable](#6-asignación-de-múltiples-valores-de-lista-a-una-variable)
+5. [La función zip()](#5-la-funci-n-zip)
+6. [Asignación de múltiples valores de lista a una variable](#6-asignaci-n-de-m-ltiples-valores-de-lista-a-una-variable)
 7. [Eliminar elementos de la lista duplicada](#7-eliminar-elementos-de-la-lista-duplicada)
-8. [Función lambda](#8-función-lambda)
+8. [Función lambda](#8-funci-n-lambda)
 9. [Intercambio de valor de variable](#9-intercambio-de-valor-de-variable)
-10. [Use una contraseña en su código](#10-use-una-contraseña-en-su-código)''')
+10. [Use una contraseña en su código](#10-use-una-contrase-a-en-su-c-digo)''')
 
 st.header("1. Operador Walrus")
 
@@ -38,7 +55,7 @@ st.subheader("Salida")
 
 st.code('3')
 
-st.markdown("[Subir](#indice)")
+st.markdown("[Subir 🔝](#10-trucos-geniales-de-python-para-principiantes-que-te-facilitar-n-la-vida)")
 
 st.header("2. Dividir una cadena")
 
@@ -85,7 +102,7 @@ st.subheader("Salida")
 
 st.code("{'a': 10, 'b': 20, 'c': 30, 'd': 40}")
 
-st.header("5. The zip() function")
+st.header("5. La función zip()")
 
 st.markdown("La función `zip()` en Python puede hacer que su vida sea mucho más fácil cuando se trabaja con listas y diccionarios. Se utiliza para combinar varias listas de la misma longitud.")
 
